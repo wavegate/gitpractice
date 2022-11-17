@@ -15,6 +15,7 @@ class Test {
 
   removeValue(value: number) {
     this.set.delete(value);
+    console.log("chicken");
   }
 
   getRandomValue() {
