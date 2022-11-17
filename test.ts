@@ -24,6 +24,7 @@ class Test {
 }
 
 const tester = new Test();
+const tester2 = new Test();
 
 for (let i = 0; i < 100; i++) {
   tester.insertValue(i);
