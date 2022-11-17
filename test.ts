@@ -19,6 +19,6 @@ class Test {
 
   getRandomValue() {
     const random = Math.floor(Math.random() * this.set.size);
-    return Array.from(this.set.values())[random];
+    // return Array.from(this.set.values())[random];
   }
 }
