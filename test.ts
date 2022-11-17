@@ -13,12 +13,5 @@ class Test {
     this.set.add(value);
   }
 
-  removeValue(value: number) {
-    this.set.delete(value);
-  }
-
-  getRandomValue() {
-    const random = Math.floor(Math.random() * this.set.size);
-    // return Array.from(this.set.values())[random];
-  }
+  
 }
