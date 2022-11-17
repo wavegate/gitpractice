@@ -13,15 +13,8 @@ class Test {
     this.set.add(value);
   }
 
-  removeValue(value: number) {
-    this.set.delete(value);
-    console.log("chicken");
-  }
-
-  getRandomValue() {
-    const random = Math.floor(Math.random() * this.set.size);
-    // return Array.from(this.set.values())[random];
-  }
+  console.log("asdf");
+  
 }
 
 const tester2 = new Test();
