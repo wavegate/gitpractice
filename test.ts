@@ -15,3 +15,5 @@ class Test {
 
   
 }
+
+const tester2 = new Test();
